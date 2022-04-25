@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.11)  25 APR 2022 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=latex 2022.3.11)  25 APR 2022 21:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -99,9 +99,9 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+Package graphics Info: Driver file: dvips.def on input line 105.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ))
 \Gin@req@height=\dimen139
 \Gin@req@width=\dimen140
@@ -146,16 +146,17 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-dvips.def
 
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
- (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips.def
+File: pgfsys-dvips.def 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-postscript.def
+File: pgfsys-common-postscript.def 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@objectcount=\count266
 ))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count266
-\pgfsyssoftpath@bigbuffer@items=\count267
+\pgfsyssoftpath@smallbuffer@items=\count267
+\pgfsyssoftpath@bigbuffer@items=\count268
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )) (/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -163,9 +164,8 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: dvips.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -177,13 +177,13 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen153
-\pgfmath@count=\count268
+\pgfmath@count=\count269
 \pgfmath@box=\box56
 \pgfmath@toks=\toks25
 \pgfmath@stack@operand=\toks26
 \pgfmath@stack@operation=\toks27
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count269
+\c@pgfmathroundto@lastzeros=\count270
 )) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@picminx=\dimen154
@@ -204,8 +204,7 @@ File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@path@lastx=\dimen168
 \pgf@path@lasty=\dimen169
-)
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@shorten@end@additional=\dimen170
 \pgf@shorten@start@additional=\dimen171
@@ -214,7 +213,7 @@ File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box57
 \pgf@hbox=\box58
 \pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count270
+\pgf@picture@serial@count=\count271
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgflinewidth=\dimen172
@@ -235,8 +234,8 @@ File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen177
-\pgf@sys@shading@range@num=\count271
-\pgf@shadingcount=\count272
+\pgf@sys@shading@range@num=\count272
+\pgf@shadingcount=\count273
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -273,7 +272,7 @@ Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count273
+\pgf@plot@mark@count=\count274
 \pgfplotmarksize=\dimen182
 )
 \tikz@lastx=\dimen183
@@ -288,17 +287,17 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@figbox@bg=\box63
 \tikz@tempbox=\box64
 \tikz@tempbox@bg=\box65
-\tikztreelevel=\count274
-\tikznumberofchildren=\count275
-\tikznumberofcurrentchild=\count276
-\tikz@fig@count=\count277
+\tikztreelevel=\count275
+\tikznumberofchildren=\count276
+\tikznumberofcurrentchild=\count277
+\tikz@fig@count=\count278
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count278
-\pgfmatrixcurrentcolumn=\count279
-\pgf@matrix@numberofcolumns=\count280
+\pgfmatrixcurrentrow=\count279
+\pgfmatrixcurrentcolumn=\count280
+\pgf@matrix@numberofcolumns=\count281
 )
-\tikz@expandcount=\count281
+\tikz@expandcount=\count282
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
@@ -306,29 +305,29 @@ File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \t@pgfplots@tokb=\toks31
 \t@pgfplots@tokc=\toks32
 \pgfplots@tmpa=\dimen191
-\c@pgfplots@coordindex=\count282
-\c@pgfplots@scanlineindex=\count283
+\c@pgfplots@coordindex=\count283
+\c@pgfplots@scanlineindex=\count284
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count284
+\c@pgfplotsarray@tmp=\count285
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count285
+\c@pgfplotstable@counta=\count286
 \t@pgfplotstable@a=\toks33
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count286
- (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\c@pgfplotslibrarysurf@no=\count287
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-dvips.def))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen192
 \pgfdecoratedremainingdistance=\dimen193
 \pgfdecoratedinputsegmentcompleteddistance=\dimen194
 \pgfdecoratedinputsegmentremainingdistance=\dimen195
 \pgf@decorate@distancetomove=\dimen196
-\pgf@decorate@repeatstate=\count287
+\pgf@decorate@repeatstate=\count288
 \pgfdecorationsegmentamplitude=\dimen197
 \pgfdecorationsegmentlength=\dimen198
 )
 \tikz@lib@dec@box=\box66
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count288
+\pgfplots@numplots=\count289
 \pgfplots@xmin@reg=\dimen199
 \pgfplots@xmax@reg=\dimen256
 \pgfplots@ymin@reg=\dimen257
@@ -340,10 +339,15 @@ File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 File: tikzlibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count289
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2021-03-18 L3 backend support: dvips
 \l__pdf_internal_box=\box67
+\g__pdf_backend_object_int=\count290
+\l__pdf_backend_content_box=\box68
+\l__pdf_backend_model_box=\box69
+\g__pdf_backend_annotation_int=\count291
+\g__pdf_backend_link_int=\count292
+\g__pdf_backend_link_sf_int=\count293
 ) (/Users/artemnosenko/Documents/IFW/TlXSe2/.texpadtmp/main_v1.aux)
 \openout1 = `main_v1.aux'.
 
@@ -364,25 +368,7 @@ LaTeX Font Info:    ... okay on input line 24.
 Class revtex4 Info: Unrecognized LaTeX tabular. Please update this document class! (Proceeding with fingers crossed.) on input line 24.
 Class revtex4 Info: cite was not loaded (OK!) on input line 24.
 Class revtex4 Info: multicol was not loaded (OK!) on input line 24.
- (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen261
-\scratchbox=\box68
-\nofMPsegments=\count291
-\nofMParguments=\count292
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen262
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
-\everyMPtoPDFconversion=\toks35
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
+
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into your preamble.
  on input line 24.
@@ -398,53 +384,30 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 30.
-
-
-./main_v1.tex:56: LaTeX Error: File `Er_BAND+DOS-eps-converted-to' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 ...s[scale=0.4]{Er_BAND+DOS-eps-converted-to}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.eps,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+File: img/Er_BAND+DOS.eps Graphic file (type eps)
+ <img/Er_BAND+DOS.eps>
+Overfull \hbox (68.15117pt too wide) in paragraph at lines 56--57
+ [][] 
+ []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 57.
+File: img/Tm_BAND+DOS.eps Graphic file (type eps)
+<img/Tm_BAND+DOS.eps>
+Overfull \hbox (68.15117pt too wide) in paragraph at lines 61--62
+ [][] 
+ []
 
-./main_v1.tex:61: LaTeX Error: File `Tm_BAND+DOS-eps-converted-to' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.61 ...s[scale=0.4]{Tm_BAND+DOS-eps-converted-to}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.eps,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/artemnosenko/Documents/IFW/TlXSe2/.texpadtmp/main_v1.aux) ) 
+[1] [2] (/Users/artemnosenko/Documents/IFW/TlXSe2/.texpadtmp/main_v1.aux) ) 
 Here is how much of TeX's memory you used:
- 23728 strings out of 478994
- 605527 string characters out of 5858184
- 1062524 words of memory out of 5000000
- 40867 multiletter control sequences out of 15000+600000
+ 23340 strings out of 478995
+ 600156 string characters out of 5858210
+ 1073871 words of memory out of 5000000
+ 40491 multiletter control sequences out of 15000+600000
  406474 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,5n,103p,724b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on /Users/artemnosenko/Documents/IFW/TlXSe2/.texpadtmp/main_v1.pdf (1 page, 94849 bytes).
-PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+Output written on /Users/artemnosenko/Documents/IFW/TlXSe2/.texpadtmp/main_v1.dvi (2 pages, 15240 bytes).
