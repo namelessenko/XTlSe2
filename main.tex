@@ -1,0 +1,43 @@
+\documentclass[a4paper,12pt]{report}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+\usepackage[utf8]{inputenc}
+
+%Language&Font
+%\setmainfont{Times New Roman}
+\usepackage{lmodern} 
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+%========================================
+%Pictures
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\graphicspath{{img/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.eps}
+%========================================
+%Title
+\title{TlXSe2 Report}
+\author{Nosenko A.}
+\date{March 2022}
+%========================================
+%Table contents
+
+%========================================
+
+\begin{document}
+\maketitle
+\tableofcontents
+\chapter{Computational details}
+
+All computations have been performed using the Vienna Ab Initio Software Package (VASP) version 5.4.4.pl2. PBE parametrization of GGA functional was used within a projector-augmented-wave scheme taken from the standard VASP PAW library.
+
+There are some problems with the calculation of f-electrons. This is not a VASP problem, this is a DFT problem in general. Therefore, the potential in which the f-electrons are included in the core was chosen for the calculation
+
+The density of states for both materials was performed with cutoff energy set to 700 eV with Gamma-centred k-points mesh 28x28x28. Band calculation using spin-orbit coupling has been performed in the next k-path $\Gamma-T-H_2|H_0-L-\Gamma-S_0|S_2-F-\Gamma$ with 20 intersections.
+
+Post-processing produced with pymatgen python library.
+ 
+\chapter{Results}
+\include{Er_res.tex}
+\include{Tm_res.tex}
+\end{document}
